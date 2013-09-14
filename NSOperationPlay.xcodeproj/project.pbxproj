@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSViewControllerTests.m; sourceTree = "<group>"; };
+		DE3F32EE17E4DD26006C8798 /* BSViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewController_Private.h; sourceTree = "<group>"; };
 		DE446EC717E4D1BC00CB0982 /* NSOperationPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOperationPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE446ECA17E4D1BC00CB0982 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE446ECC17E4D1BC00CB0982 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +121,7 @@
 				DE446EDA17E4D1BC00CB0982 /* BSAppDelegate.m */,
 				DE446EDC17E4D1BC00CB0982 /* Main.storyboard */,
 				DE446EDF17E4D1BC00CB0982 /* BSViewController.h */,
+				DE3F32EE17E4DD26006C8798 /* BSViewController_Private.h */,
 				DE446EE017E4D1BC00CB0982 /* BSViewController.m */,
 				DE446EE217E4D1BC00CB0982 /* Images.xcassets */,
 				DE446ED117E4D1BC00CB0982 /* Supporting Files */,

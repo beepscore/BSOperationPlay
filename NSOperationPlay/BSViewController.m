@@ -7,10 +7,8 @@
 //
 
 #import "BSViewController.h"
+#import "BSViewController_Private.h"
 
-@interface BSViewController ()
-
-@end
 
 @implementation BSViewController
 
@@ -18,12 +16,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.resultLabel.text = @"";
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)startOperation:(id)sender {
+    self.resultLabel.text = @"started";
 }
 
 @end
