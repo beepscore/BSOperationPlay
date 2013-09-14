@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE3F32ED17E4D897006C8798 /* BSViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */; };
 		DE446ECB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECA17E4D1BC00CB0982 /* Foundation.framework */; };
 		DE446ECD17E4D1BC00CB0982 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECC17E4D1BC00CB0982 /* CoreGraphics.framework */; };
 		DE446ECF17E4D1BC00CB0982 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECE17E4D1BC00CB0982 /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		DE446EEB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECA17E4D1BC00CB0982 /* Foundation.framework */; };
 		DE446EEC17E4D1BC00CB0982 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECE17E4D1BC00CB0982 /* UIKit.framework */; };
 		DE446EF417E4D1BC00CB0982 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE446EF217E4D1BC00CB0982 /* InfoPlist.strings */; };
-		DE446EF617E4D1BC00CB0982 /* NSOperationPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE446EF517E4D1BC00CB0982 /* NSOperationPlayTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSViewControllerTests.m; sourceTree = "<group>"; };
 		DE446EC717E4D1BC00CB0982 /* NSOperationPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOperationPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE446ECA17E4D1BC00CB0982 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE446ECC17E4D1BC00CB0982 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +53,6 @@
 		DE446EE917E4D1BC00CB0982 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DE446EF117E4D1BC00CB0982 /* NSOperationPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSOperationPlayTests-Info.plist"; sourceTree = "<group>"; };
 		DE446EF317E4D1BC00CB0982 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE446EF517E4D1BC00CB0982 /* NSOperationPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationPlayTests.m; sourceTree = "<group>"; };
 		DEE39DD417E4D4C4002381FE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DEE39DD517E4D4D8002381FE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,8 +141,8 @@
 		DE446EEF17E4D1BC00CB0982 /* NSOperationPlayTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE446EF517E4D1BC00CB0982 /* NSOperationPlayTests.m */,
 				DE446EF017E4D1BC00CB0982 /* Supporting Files */,
+				DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */,
 			);
 			path = NSOperationPlayTests;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE446EF617E4D1BC00CB0982 /* NSOperationPlayTests.m in Sources */,
+				DE3F32ED17E4D897006C8798 /* BSViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
