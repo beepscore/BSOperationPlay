@@ -7,9 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "BSViewController.h"
+#import "BSViewController_Private.h"
 
 @interface BSViewControllerTests : XCTestCase
-
+@property (strong, nonatomic) BSViewController *viewController;
 @end
 
 @implementation BSViewControllerTests
@@ -17,7 +19,16 @@
 - (void)setUp
 {
     [super setUp];
-    // Put setup code here; it will be run once, before the first test case.
+
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main"
+                                                         bundle:[NSBundle mainBundle]];
+    self.viewController = [storyboard instantiateViewControllerWithIdentifier:@"bsViewController"];
+
+    // Call load view to instantiate view and subviews.
+    // http://iosunittesting.com/using-storyboards/
+    [self.viewController performSelectorOnMainThread:@selector(loadView)
+                                          withObject:nil
+                                       waitUntilDone:YES];
 }
 
 - (void)tearDown
@@ -26,9 +37,16 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testViewDidLoad
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    [self.viewController viewDidLoad];
+    XCTAssertEqualObjects(@"", self.viewController.resultLabel.text, @"");
+}
+
+- (void)testStartOperation
+{
+    [self.viewController startOperation:self];
+    XCTAssertEqualObjects(@"started", self.viewController.resultLabel.text, @"");
 }
 
 @end
