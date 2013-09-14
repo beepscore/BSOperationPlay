@@ -34,25 +34,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSViewControllerTests.m; sourceTree = "<group>"; };
-		DE3F32EE17E4DD26006C8798 /* BSViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewController_Private.h; sourceTree = "<group>"; };
-		DE446EC717E4D1BC00CB0982 /* NSOperationPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOperationPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BSViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DE3F32EE17E4DD26006C8798 /* BSViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BSViewController_Private.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DE446EC717E4D1BC00CB0982 /* BSOperationPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSOperationPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE446ECA17E4D1BC00CB0982 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE446ECC17E4D1BC00CB0982 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DE446ECE17E4D1BC00CB0982 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DE446ED217E4D1BC00CB0982 /* NSOperationPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSOperationPlay-Info.plist"; sourceTree = "<group>"; };
+		DE446ED217E4D1BC00CB0982 /* BSOperationPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSOperationPlay-Info.plist"; sourceTree = "<group>"; };
 		DE446ED417E4D1BC00CB0982 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE446ED617E4D1BC00CB0982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE446ED817E4D1BC00CB0982 /* NSOperationPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSOperationPlay-Prefix.pch"; sourceTree = "<group>"; };
-		DE446ED917E4D1BC00CB0982 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
-		DE446EDA17E4D1BC00CB0982 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		DE446ED617E4D1BC00CB0982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DE446ED817E4D1BC00CB0982 /* BSOperationPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSOperationPlay-Prefix.pch"; sourceTree = "<group>"; };
+		DE446ED917E4D1BC00CB0982 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BSAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DE446EDA17E4D1BC00CB0982 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BSAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE446EDD17E4D1BC00CB0982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE446EDF17E4D1BC00CB0982 /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
-		DE446EE017E4D1BC00CB0982 /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		DE446EDF17E4D1BC00CB0982 /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BSViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DE446EE017E4D1BC00CB0982 /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BSViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE446EE217E4D1BC00CB0982 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DE446EE817E4D1BC00CB0982 /* NSOperationPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOperationPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE446EE817E4D1BC00CB0982 /* BSOperationPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSOperationPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE446EE917E4D1BC00CB0982 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DE446EF117E4D1BC00CB0982 /* NSOperationPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSOperationPlayTests-Info.plist"; sourceTree = "<group>"; };
+		DE446EF117E4D1BC00CB0982 /* BSOperationPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSOperationPlayTests-Info.plist"; sourceTree = "<group>"; };
 		DE446EF317E4D1BC00CB0982 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEE39DD417E4D4C4002381FE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DEE39DD517E4D4D8002381FE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 			children = (
 				DEE39DD517E4D4D8002381FE /* README.md */,
 				DEE39DD417E4D4C4002381FE /* LICENSE */,
-				DE446ED017E4D1BC00CB0982 /* NSOperationPlay */,
-				DE446EEF17E4D1BC00CB0982 /* NSOperationPlayTests */,
+				DE446ED017E4D1BC00CB0982 /* BSOperationPlay */,
+				DE446EEF17E4D1BC00CB0982 /* BSOperationPlayTests */,
 				DE446EC917E4D1BC00CB0982 /* Frameworks */,
 				DE446EC817E4D1BC00CB0982 /* Products */,
 			);
@@ -97,8 +97,8 @@
 		DE446EC817E4D1BC00CB0982 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE446EC717E4D1BC00CB0982 /* NSOperationPlay.app */,
-				DE446EE817E4D1BC00CB0982 /* NSOperationPlayTests.xctest */,
+				DE446EC717E4D1BC00CB0982 /* BSOperationPlay.app */,
+				DE446EE817E4D1BC00CB0982 /* BSOperationPlayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE446ED017E4D1BC00CB0982 /* NSOperationPlay */ = {
+		DE446ED017E4D1BC00CB0982 /* BSOperationPlay */ = {
 			isa = PBXGroup;
 			children = (
 				DE446ED917E4D1BC00CB0982 /* BSAppDelegate.h */,
@@ -126,33 +126,33 @@
 				DE446EE217E4D1BC00CB0982 /* Images.xcassets */,
 				DE446ED117E4D1BC00CB0982 /* Supporting Files */,
 			);
-			path = NSOperationPlay;
+			path = BSOperationPlay;
 			sourceTree = "<group>";
 		};
 		DE446ED117E4D1BC00CB0982 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE446ED217E4D1BC00CB0982 /* NSOperationPlay-Info.plist */,
+				DE446ED217E4D1BC00CB0982 /* BSOperationPlay-Info.plist */,
 				DE446ED317E4D1BC00CB0982 /* InfoPlist.strings */,
 				DE446ED617E4D1BC00CB0982 /* main.m */,
-				DE446ED817E4D1BC00CB0982 /* NSOperationPlay-Prefix.pch */,
+				DE446ED817E4D1BC00CB0982 /* BSOperationPlay-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DE446EEF17E4D1BC00CB0982 /* NSOperationPlayTests */ = {
+		DE446EEF17E4D1BC00CB0982 /* BSOperationPlayTests */ = {
 			isa = PBXGroup;
 			children = (
 				DE446EF017E4D1BC00CB0982 /* Supporting Files */,
 				DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */,
 			);
-			path = NSOperationPlayTests;
+			path = BSOperationPlayTests;
 			sourceTree = "<group>";
 		};
 		DE446EF017E4D1BC00CB0982 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE446EF117E4D1BC00CB0982 /* NSOperationPlayTests-Info.plist */,
+				DE446EF117E4D1BC00CB0982 /* BSOperationPlayTests-Info.plist */,
 				DE446EF217E4D1BC00CB0982 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE446EC617E4D1BC00CB0982 /* NSOperationPlay */ = {
+		DE446EC617E4D1BC00CB0982 /* BSOperationPlay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE446EF917E4D1BC00CB0982 /* Build configuration list for PBXNativeTarget "NSOperationPlay" */;
+			buildConfigurationList = DE446EF917E4D1BC00CB0982 /* Build configuration list for PBXNativeTarget "BSOperationPlay" */;
 			buildPhases = (
 				DE446EC317E4D1BC00CB0982 /* Sources */,
 				DE446EC417E4D1BC00CB0982 /* Frameworks */,
@@ -173,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = NSOperationPlay;
+			name = BSOperationPlay;
 			productName = NSOperationPlay;
-			productReference = DE446EC717E4D1BC00CB0982 /* NSOperationPlay.app */;
+			productReference = DE446EC717E4D1BC00CB0982 /* BSOperationPlay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE446EE717E4D1BC00CB0982 /* NSOperationPlayTests */ = {
+		DE446EE717E4D1BC00CB0982 /* BSOperationPlayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE446EFC17E4D1BC00CB0982 /* Build configuration list for PBXNativeTarget "NSOperationPlayTests" */;
+			buildConfigurationList = DE446EFC17E4D1BC00CB0982 /* Build configuration list for PBXNativeTarget "BSOperationPlayTests" */;
 			buildPhases = (
 				DE446EE417E4D1BC00CB0982 /* Sources */,
 				DE446EE517E4D1BC00CB0982 /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				DE446EEE17E4D1BC00CB0982 /* PBXTargetDependency */,
 			);
-			name = NSOperationPlayTests;
+			name = BSOperationPlayTests;
 			productName = NSOperationPlayTests;
-			productReference = DE446EE817E4D1BC00CB0982 /* NSOperationPlayTests.xctest */;
+			productReference = DE446EE817E4D1BC00CB0982 /* BSOperationPlayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE446EC217E4D1BC00CB0982 /* Build configuration list for PBXProject "NSOperationPlay" */;
+			buildConfigurationList = DE446EC217E4D1BC00CB0982 /* Build configuration list for PBXProject "BSOperationPlay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE446EC617E4D1BC00CB0982 /* NSOperationPlay */,
-				DE446EE717E4D1BC00CB0982 /* NSOperationPlayTests */,
+				DE446EC617E4D1BC00CB0982 /* BSOperationPlay */,
+				DE446EE717E4D1BC00CB0982 /* BSOperationPlayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		DE446EEE17E4D1BC00CB0982 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE446EC617E4D1BC00CB0982 /* NSOperationPlay */;
+			target = DE446EC617E4D1BC00CB0982 /* BSOperationPlay */;
 			targetProxy = DE446EED17E4D1BC00CB0982 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,9 +386,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSOperationPlay/NSOperationPlay-Prefix.pch";
-				INFOPLIST_FILE = "NSOperationPlay/NSOperationPlay-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BSOperationPlay/BSOperationPlay-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BSOperationPlay/BSOperationPlay-Info.plist";
+				PRODUCT_NAME = BSOperationPlay;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,9 +399,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSOperationPlay/NSOperationPlay-Prefix.pch";
-				INFOPLIST_FILE = "NSOperationPlay/NSOperationPlay-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BSOperationPlay/BSOperationPlay-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BSOperationPlay/BSOperationPlay-Info.plist";
+				PRODUCT_NAME = BSOperationPlay;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -410,20 +410,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSOperationPlay.app/NSOperationPlay";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BSOperationPlay.app/BSOperationPlay";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSOperationPlay/NSOperationPlay-Prefix.pch";
+				GCC_PREFIX_HEADER = "BSOperationPlay/BSOperationPlay-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NSOperationPlayTests/NSOperationPlayTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BSOperationPlayTests/BSOperationPlayTests-Info.plist";
+				PRODUCT_NAME = BSOperationPlayTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -433,16 +433,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSOperationPlay.app/NSOperationPlay";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BSOperationPlay.app/BSOperationPlay";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSOperationPlay/NSOperationPlay-Prefix.pch";
-				INFOPLIST_FILE = "NSOperationPlayTests/NSOperationPlayTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BSOperationPlay/BSOperationPlay-Prefix.pch";
+				INFOPLIST_FILE = "BSOperationPlayTests/BSOperationPlayTests-Info.plist";
+				PRODUCT_NAME = BSOperationPlayTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -451,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE446EC217E4D1BC00CB0982 /* Build configuration list for PBXProject "NSOperationPlay" */ = {
+		DE446EC217E4D1BC00CB0982 /* Build configuration list for PBXProject "BSOperationPlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE446EF717E4D1BC00CB0982 /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE446EF917E4D1BC00CB0982 /* Build configuration list for PBXNativeTarget "NSOperationPlay" */ = {
+		DE446EF917E4D1BC00CB0982 /* Build configuration list for PBXNativeTarget "BSOperationPlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE446EFA17E4D1BC00CB0982 /* Debug */,
@@ -469,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE446EFC17E4D1BC00CB0982 /* Build configuration list for PBXNativeTarget "NSOperationPlayTests" */ = {
+		DE446EFC17E4D1BC00CB0982 /* Build configuration list for PBXNativeTarget "BSOperationPlayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE446EFD17E4D1BC00CB0982 /* Debug */,

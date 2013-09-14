@@ -1,3 +1,3 @@
 # Purpose
-NSOperationPlay is an iOS app to practice using NSOperation and NSOperationQueue.
+BSOperationPlay is an iOS app to practice using NSOperation and NSOperationQueue.
 
