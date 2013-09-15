@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE162FEA17E6586D00495D71 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE05C11817E6575900DF711F /* libOCMock.a */; };
 		DE3F32ED17E4D897006C8798 /* BSViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */; };
 		DE446ECB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECA17E4D1BC00CB0982 /* Foundation.framework */; };
 		DE446ECD17E4D1BC00CB0982 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECC17E4D1BC00CB0982 /* CoreGraphics.framework */; };
@@ -274,6 +275,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE162FEA17E6586D00495D71 /* libOCMock.a in Frameworks */,
 				DE446EEA17E4D1BC00CB0982 /* XCTest.framework in Frameworks */,
 				DE446EEC17E4D1BC00CB0982 /* UIKit.framework in Frameworks */,
 				DE446EEB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */,
