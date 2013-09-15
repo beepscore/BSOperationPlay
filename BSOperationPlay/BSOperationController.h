@@ -10,4 +10,9 @@
 
 @interface BSOperationController : NSObject
 
+/**
+ @return a shared instance, not strictly enforced as a singleton
+ */
++ (id)sharedInstance;
+
 @end

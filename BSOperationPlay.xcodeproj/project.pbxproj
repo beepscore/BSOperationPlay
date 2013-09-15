@@ -57,6 +57,7 @@
 		DE446EE917E4D1BC00CB0982 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DE446EF117E4D1BC00CB0982 /* BSOperationPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSOperationPlayTests-Info.plist"; sourceTree = "<group>"; };
 		DE446EF317E4D1BC00CB0982 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE57C2DF17E63A69003084E4 /* BSOperationController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOperationController_Private.h; sourceTree = "<group>"; };
 		DEC0397D17E52E3A00A7A063 /* BSOperationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOperationController.h; sourceTree = "<group>"; };
 		DEC0397E17E52E3A00A7A063 /* BSOperationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOperationController.m; sourceTree = "<group>"; };
 		DEC0398117E52EE800A7A063 /* BSOperationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOperationControllerTests.m; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 				DE446ED917E4D1BC00CB0982 /* BSAppDelegate.h */,
 				DE446EDA17E4D1BC00CB0982 /* BSAppDelegate.m */,
 				DEC0397D17E52E3A00A7A063 /* BSOperationController.h */,
+				DE57C2DF17E63A69003084E4 /* BSOperationController_Private.h */,
 				DEC0397E17E52E3A00A7A063 /* BSOperationController.m */,
 				DE446EDF17E4D1BC00CB0982 /* BSViewController.h */,
 				DE3F32EE17E4DD26006C8798 /* BSViewController_Private.h */,
