@@ -15,4 +15,6 @@
  */
 + (id)sharedInstance;
 
+- (void)addOperation:(NSOperation *)anOperation;
+
 @end

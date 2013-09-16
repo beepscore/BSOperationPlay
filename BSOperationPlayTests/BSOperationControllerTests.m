@@ -80,4 +80,22 @@
                    @"expected notificationCenter set");
 }
 
+- (void)testAddOperation {
+    // Use nice mock to ignore un-expect-ed calls.
+    id mockOperationQueue = [OCMockObject niceMockForClass:[NSOperationQueue class]];
+
+    self.operationController = [[BSOperationController alloc]
+                                initWithOperationQueue:mockOperationQueue
+                                notificationCenter:nil];
+
+    NSOperation *operation = [[NSOperation alloc] init];
+
+    [[mockOperationQueue expect] addOperation:operation];
+
+    [self.operationController addOperation:operation];
+
+    // Verify all stubbed or expected methods were called.
+    [mockOperationQueue verify];
+}
+
 @end

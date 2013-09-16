@@ -47,4 +47,10 @@
                      notificationCenter:nil];
 }
 
+#pragma mark -
+
+- (void)addOperation:(NSOperation *)anOperation {
+    [self.operationQueue addOperation:anOperation];
+}
+
 @end
