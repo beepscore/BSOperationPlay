@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE162FEA17E6586D00495D71 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE05C11817E6575900DF711F /* libOCMock.a */; };
 		DE3F32ED17E4D897006C8798 /* BSViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */; };
 		DE446ECB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECA17E4D1BC00CB0982 /* Foundation.framework */; };
 		DE446ECD17E4D1BC00CB0982 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECC17E4D1BC00CB0982 /* CoreGraphics.framework */; };
@@ -22,75 +21,13 @@
 		DE446EEB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECA17E4D1BC00CB0982 /* Foundation.framework */; };
 		DE446EEC17E4D1BC00CB0982 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECE17E4D1BC00CB0982 /* UIKit.framework */; };
 		DE446EF417E4D1BC00CB0982 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE446EF217E4D1BC00CB0982 /* InfoPlist.strings */; };
+		DEBE372417E65EC600FBF617 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBE372317E65EC600FBF617 /* libOCMock.a */; };
 		DEC0397F17E52E3A00A7A063 /* BSOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0397E17E52E3A00A7A063 /* BSOperationController.m */; };
 		DEC0398017E52E3A00A7A063 /* BSOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0397E17E52E3A00A7A063 /* BSOperationController.m */; };
 		DEC0398217E52EE800A7A063 /* BSOperationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0398117E52EE800A7A063 /* BSOperationControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DE05C0FF17E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C05E17E6575900DF711F /* ArcExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 035F7F1914CDBBBC00D21121;
-			remoteInfo = ArcExample;
-		};
-		DE05C10317E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C07217E6575900DF711F /* iOS5Example.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0395293915043C7A00D25639;
-			remoteInfo = iOS5Example;
-		};
-		DE05C10517E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C07217E6575900DF711F /* iOS5Example.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0395296015043C7A00D25639;
-			remoteInfo = iOS5ExampleTests;
-		};
-		DE05C10A17E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C08F17E6575900DF711F /* iPhoneExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
-			remoteInfo = iPhoneExample;
-		};
-		DE05C10C17E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C08F17E6575900DF711F /* iPhoneExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 03E41F0811F5BE2F00147791;
-			remoteInfo = iPhoneExampleTests;
-		};
-		DE05C10E17E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C08F17E6575900DF711F /* iPhoneExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 03B85C5B11FFAF1100347AAD;
-			remoteInfo = iPhoneExampleTesting;
-		};
-		DE05C11317E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C0DB17E6575900DF711F /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0A814632FD000B04273;
-			remoteInfo = OCMock;
-		};
-		DE05C11517E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C0DB17E6575900DF711F /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0C014632FD000B04273;
-			remoteInfo = OCMockTests;
-		};
-		DE05C11717E6575900DF711F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE05C0DB17E6575900DF711F /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 030EF0DC14632FF700B04273;
-			remoteInfo = OCMockLib;
-		};
 		DE446EED17E4D1BC00CB0982 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DE446EBF17E4D1BC00CB0982 /* Project object */;
@@ -101,137 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE05C05717E6575900DF711F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		DE05C05B17E6575900DF711F /* ArcExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArcExample-Prefix.pch"; sourceTree = "<group>"; };
-		DE05C05C17E6575900DF711F /* ArcExample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ArcExample.1; sourceTree = "<group>"; };
-		DE05C05D17E6575900DF711F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE05C05E17E6575900DF711F /* ArcExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ArcExample.xcodeproj; sourceTree = "<group>"; };
-		DE05C06317E6575900DF711F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DE05C06417E6575900DF711F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DE05C06517E6575900DF711F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		DE05C06617E6575900DF711F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		DE05C06817E6575900DF711F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE05C06A17E6575900DF711F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DE05C06C17E6575900DF711F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		DE05C06D17E6575900DF711F /* iOS5Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS5Example-Info.plist"; sourceTree = "<group>"; };
-		DE05C06E17E6575900DF711F /* iOS5Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS5Example-Prefix.pch"; sourceTree = "<group>"; };
-		DE05C06F17E6575900DF711F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE05C07017E6575900DF711F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		DE05C07117E6575900DF711F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		DE05C07217E6575900DF711F /* iOS5Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = iOS5Example.xcodeproj; sourceTree = "<group>"; };
-		DE05C07717E6575900DF711F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE05C07817E6575900DF711F /* iOS5ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS5ExampleTests-Info.plist"; sourceTree = "<group>"; };
-		DE05C07917E6575900DF711F /* iOS5ExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS5ExampleTests.h; sourceTree = "<group>"; };
-		DE05C07A17E6575900DF711F /* iOS5ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS5ExampleTests.m; sourceTree = "<group>"; };
-		DE05C07B17E6575900DF711F /* ProtocolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolTests.h; sourceTree = "<group>"; };
-		DE05C07C17E6575900DF711F /* ProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolTests.m; sourceTree = "<group>"; };
-		DE05C08017E6575900DF711F /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		DE05C08117E6575900DF711F /* OCMArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
-		DE05C08217E6575900DF711F /* OCMConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
-		DE05C08317E6575900DF711F /* OCMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		DE05C08417E6575900DF711F /* OCMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
-		DE05C08517E6575900DF711F /* OCMockRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
-		DE05C08717E6575900DF711F /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
-		DE05C08A17E6575900DF711F /* iPhoneExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneExampleAppDelegate.h; sourceTree = "<group>"; };
-		DE05C08B17E6575900DF711F /* iPhoneExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneExampleAppDelegate.m; sourceTree = "<group>"; };
-		DE05C08C17E6575900DF711F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		DE05C08D17E6575900DF711F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		DE05C08E17E6575900DF711F /* iPhoneExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneExample-Info.plist"; sourceTree = "<group>"; };
-		DE05C08F17E6575900DF711F /* iPhoneExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = iPhoneExample.xcodeproj; sourceTree = "<group>"; };
-		DE05C09217E6575900DF711F /* iPhoneExample_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneExample_Prefix.pch; sourceTree = "<group>"; };
-		DE05C09317E6575900DF711F /* iPhoneExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneExampleTests-Info.plist"; sourceTree = "<group>"; };
-		DE05C09717E6575900DF711F /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		DE05C09817E6575900DF711F /* OCMArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
-		DE05C09917E6575900DF711F /* OCMConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
-		DE05C09A17E6575900DF711F /* OCMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		DE05C09B17E6575900DF711F /* OCMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
-		DE05C09C17E6575900DF711F /* OCMockRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
-		DE05C09D17E6575900DF711F /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
-		DE05C09E17E6575900DF711F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE05C09F17E6575900DF711F /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		DE05C0A017E6575900DF711F /* OCMockLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OCMockLogo.png; sourceTree = "<group>"; };
-		DE05C0A117E6575900DF711F /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		DE05C0A317E6575900DF711F /* RootViewControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewControllerTests.h; sourceTree = "<group>"; };
-		DE05C0A417E6575900DF711F /* RootViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerTests.m; sourceTree = "<group>"; };
-		DE05C0A517E6575900DF711F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		DE05C0A717E6575900DF711F /* Changes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Changes.txt; sourceTree = "<group>"; };
-		DE05C0A917E6575900DF711F /* OCHamcrest.tar.bz2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCHamcrest.tar.bz2; sourceTree = "<group>"; };
-		DE05C0AA17E6575900DF711F /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
-		DE05C0AD17E6575900DF711F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE05C0AE17E6575900DF711F /* NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+OCMAdditions.h"; sourceTree = "<group>"; };
-		DE05C0AF17E6575900DF711F /* NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+OCMAdditions.m"; sourceTree = "<group>"; };
-		DE05C0B017E6575900DF711F /* NSMethodSignature+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMethodSignature+OCMAdditions.h"; sourceTree = "<group>"; };
-		DE05C0B117E6575900DF711F /* NSMethodSignature+OCMAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMethodSignature+OCMAdditions.m"; sourceTree = "<group>"; };
-		DE05C0B217E6575900DF711F /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		DE05C0B317E6575900DF711F /* NSNotificationCenter+OCMAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+OCMAdditions.m"; sourceTree = "<group>"; };
-		DE05C0B417E6575900DF711F /* OCClassMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCClassMockObject.h; sourceTree = "<group>"; };
-		DE05C0B517E6575900DF711F /* OCClassMockObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCClassMockObject.m; sourceTree = "<group>"; };
-		DE05C0B617E6575900DF711F /* OCMArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
-		DE05C0B717E6575900DF711F /* OCMArg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMArg.m; sourceTree = "<group>"; };
-		DE05C0B817E6575900DF711F /* OCMBlockCaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMBlockCaller.h; sourceTree = "<group>"; };
-		DE05C0B917E6575900DF711F /* OCMBlockCaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMBlockCaller.m; sourceTree = "<group>"; };
-		DE05C0BA17E6575900DF711F /* OCMBoxedReturnValueProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMBoxedReturnValueProvider.h; sourceTree = "<group>"; };
-		DE05C0BB17E6575900DF711F /* OCMBoxedReturnValueProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMBoxedReturnValueProvider.m; sourceTree = "<group>"; };
-		DE05C0BC17E6575900DF711F /* OCMConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
-		DE05C0BD17E6575900DF711F /* OCMConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMConstraint.m; sourceTree = "<group>"; };
-		DE05C0BE17E6575900DF711F /* OCMExceptionReturnValueProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMExceptionReturnValueProvider.h; sourceTree = "<group>"; };
-		DE05C0BF17E6575900DF711F /* OCMExceptionReturnValueProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMExceptionReturnValueProvider.m; sourceTree = "<group>"; };
-		DE05C0C017E6575900DF711F /* OCMIndirectReturnValueProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMIndirectReturnValueProvider.h; sourceTree = "<group>"; };
-		DE05C0C117E6575900DF711F /* OCMIndirectReturnValueProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMIndirectReturnValueProvider.m; sourceTree = "<group>"; };
-		DE05C0C217E6575900DF711F /* OCMNotificationPoster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMNotificationPoster.h; sourceTree = "<group>"; };
-		DE05C0C317E6575900DF711F /* OCMNotificationPoster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMNotificationPoster.m; sourceTree = "<group>"; };
-		DE05C0C417E6575900DF711F /* OCMObserverRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMObserverRecorder.h; sourceTree = "<group>"; };
-		DE05C0C517E6575900DF711F /* OCMObserverRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMObserverRecorder.m; sourceTree = "<group>"; };
-		DE05C0C617E6575900DF711F /* OCMock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMock-Info.plist"; sourceTree = "<group>"; };
-		DE05C0C717E6575900DF711F /* OCMock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMock-Prefix.pch"; sourceTree = "<group>"; };
-		DE05C0C817E6575900DF711F /* OCMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		DE05C0C917E6575900DF711F /* OCMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
-		DE05C0CA17E6575900DF711F /* OCMockObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockObject.m; sourceTree = "<group>"; };
-		DE05C0CB17E6575900DF711F /* OCMockRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
-		DE05C0CC17E6575900DF711F /* OCMockRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockRecorder.m; sourceTree = "<group>"; };
-		DE05C0CD17E6575900DF711F /* OCMPassByRefSetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMPassByRefSetter.h; sourceTree = "<group>"; };
-		DE05C0CE17E6575900DF711F /* OCMPassByRefSetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMPassByRefSetter.m; sourceTree = "<group>"; };
-		DE05C0CF17E6575900DF711F /* OCMRealObjectForwarder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMRealObjectForwarder.h; sourceTree = "<group>"; };
-		DE05C0D017E6575900DF711F /* OCMRealObjectForwarder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMRealObjectForwarder.m; sourceTree = "<group>"; };
-		DE05C0D117E6575900DF711F /* OCMReturnValueProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMReturnValueProvider.h; sourceTree = "<group>"; };
-		DE05C0D217E6575900DF711F /* OCMReturnValueProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMReturnValueProvider.m; sourceTree = "<group>"; };
-		DE05C0D317E6575900DF711F /* OCObserverMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCObserverMockObject.h; sourceTree = "<group>"; };
-		DE05C0D417E6575900DF711F /* OCObserverMockObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCObserverMockObject.m; sourceTree = "<group>"; };
-		DE05C0D517E6575900DF711F /* OCPartialMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPartialMockObject.h; sourceTree = "<group>"; };
-		DE05C0D617E6575900DF711F /* OCPartialMockObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPartialMockObject.m; sourceTree = "<group>"; };
-		DE05C0D717E6575900DF711F /* OCPartialMockRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPartialMockRecorder.h; sourceTree = "<group>"; };
-		DE05C0D817E6575900DF711F /* OCPartialMockRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPartialMockRecorder.m; sourceTree = "<group>"; };
-		DE05C0D917E6575900DF711F /* OCProtocolMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCProtocolMockObject.h; sourceTree = "<group>"; };
-		DE05C0DA17E6575900DF711F /* OCProtocolMockObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCProtocolMockObject.m; sourceTree = "<group>"; };
-		DE05C0DB17E6575900DF711F /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = OCMock.xcodeproj; sourceTree = "<group>"; };
-		DE05C0DF17E6575900DF711F /* OCMockLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMockLib-Prefix.pch"; sourceTree = "<group>"; };
-		DE05C0E217E6575900DF711F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE05C0E317E6575900DF711F /* NSInvocationOCMAdditionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSInvocationOCMAdditionsTests.h; sourceTree = "<group>"; };
-		DE05C0E417E6575900DF711F /* NSInvocationOCMAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSInvocationOCMAdditionsTests.m; sourceTree = "<group>"; };
-		DE05C0E517E6575900DF711F /* NSMethodSignatureOCMAdditionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMethodSignatureOCMAdditionsTests.h; sourceTree = "<group>"; };
-		DE05C0E617E6575900DF711F /* NSMethodSignatureOCMAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMethodSignatureOCMAdditionsTests.m; sourceTree = "<group>"; };
-		DE05C0E717E6575900DF711F /* OCMArgTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMArgTests.h; sourceTree = "<group>"; };
-		DE05C0E817E6575900DF711F /* OCMArgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMArgTests.m; sourceTree = "<group>"; };
-		DE05C0E917E6575900DF711F /* OCMConstraintTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMConstraintTests.h; sourceTree = "<group>"; };
-		DE05C0EA17E6575900DF711F /* OCMConstraintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMConstraintTests.m; sourceTree = "<group>"; };
-		DE05C0EB17E6575900DF711F /* OCMockObjectClassMethodMockingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObjectClassMethodMockingTests.h; sourceTree = "<group>"; };
-		DE05C0EC17E6575900DF711F /* OCMockObjectClassMethodMockingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockObjectClassMethodMockingTests.m; sourceTree = "<group>"; };
-		DE05C0ED17E6575900DF711F /* OCMockObjectForwardingTargetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObjectForwardingTargetTests.h; sourceTree = "<group>"; };
-		DE05C0EE17E6575900DF711F /* OCMockObjectForwardingTargetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockObjectForwardingTargetTests.m; sourceTree = "<group>"; };
-		DE05C0EF17E6575900DF711F /* OCMockObjectHamcrestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObjectHamcrestTests.h; sourceTree = "<group>"; };
-		DE05C0F017E6575900DF711F /* OCMockObjectHamcrestTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCMockObjectHamcrestTests.mm; sourceTree = "<group>"; };
-		DE05C0F117E6575900DF711F /* OCMockObjectPartialMocksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObjectPartialMocksTests.h; sourceTree = "<group>"; };
-		DE05C0F217E6575900DF711F /* OCMockObjectPartialMocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockObjectPartialMocksTests.m; sourceTree = "<group>"; };
-		DE05C0F317E6575900DF711F /* OCMockObjectProtocolMocksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObjectProtocolMocksTests.h; sourceTree = "<group>"; };
-		DE05C0F417E6575900DF711F /* OCMockObjectProtocolMocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockObjectProtocolMocksTests.m; sourceTree = "<group>"; };
-		DE05C0F517E6575900DF711F /* OCMockObjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObjectTests.h; sourceTree = "<group>"; };
-		DE05C0F617E6575900DF711F /* OCMockObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockObjectTests.m; sourceTree = "<group>"; };
-		DE05C0F717E6575900DF711F /* OCMockRecorderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockRecorderTests.h; sourceTree = "<group>"; };
-		DE05C0F817E6575900DF711F /* OCMockRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockRecorderTests.m; sourceTree = "<group>"; };
-		DE05C0F917E6575900DF711F /* OCMockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockTests-Info.plist"; sourceTree = "<group>"; };
-		DE05C0FA17E6575900DF711F /* OCObserverMockObjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCObserverMockObjectTests.h; sourceTree = "<group>"; };
-		DE05C0FB17E6575900DF711F /* OCObserverMockObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCObserverMockObjectTests.m; sourceTree = "<group>"; };
-		DE05C0FD17E6575900DF711F /* build.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = build.rb; sourceTree = "<group>"; };
 		DE3F32EC17E4D897006C8798 /* BSViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BSViewControllerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE3F32EE17E4DD26006C8798 /* BSViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BSViewController_Private.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DE446EC717E4D1BC00CB0982 /* BSOperationPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSOperationPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,6 +59,7 @@
 		DE446EF117E4D1BC00CB0982 /* BSOperationPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSOperationPlayTests-Info.plist"; sourceTree = "<group>"; };
 		DE446EF317E4D1BC00CB0982 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE57C2DF17E63A69003084E4 /* BSOperationController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOperationController_Private.h; sourceTree = "<group>"; };
+		DEBE372317E65EC600FBF617 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC0397D17E52E3A00A7A063 /* BSOperationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOperationController.h; sourceTree = "<group>"; };
 		DEC0397E17E52E3A00A7A063 /* BSOperationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOperationController.m; sourceTree = "<group>"; };
 		DEC0398117E52EE800A7A063 /* BSOperationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOperationControllerTests.m; sourceTree = "<group>"; };
@@ -275,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE162FEA17E6586D00495D71 /* libOCMock.a in Frameworks */,
+				DEBE372417E65EC600FBF617 /* libOCMock.a in Frameworks */,
 				DE446EEA17E4D1BC00CB0982 /* XCTest.framework in Frameworks */,
 				DE446EEC17E4D1BC00CB0982 /* UIKit.framework in Frameworks */,
 				DE446EEB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */,
@@ -285,363 +92,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE05C05617E6575900DF711F /* ocmock */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C05717E6575900DF711F /* .gitignore */,
-				DE05C05817E6575900DF711F /* Examples */,
-				DE05C0A517E6575900DF711F /* README.md */,
-				DE05C0A617E6575900DF711F /* Source */,
-				DE05C0FC17E6575900DF711F /* Tools */,
-			);
-			path = ocmock;
-			sourceTree = "<group>";
-		};
-		DE05C05817E6575900DF711F /* Examples */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C05917E6575900DF711F /* ArcExample */,
-				DE05C06117E6575900DF711F /* iOS5Example */,
-				DE05C08817E6575900DF711F /* iPhoneExample */,
-			);
-			path = Examples;
-			sourceTree = "<group>";
-		};
-		DE05C05917E6575900DF711F /* ArcExample */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C05A17E6575900DF711F /* ArcExample */,
-				DE05C05E17E6575900DF711F /* ArcExample.xcodeproj */,
-			);
-			path = ArcExample;
-			sourceTree = "<group>";
-		};
-		DE05C05A17E6575900DF711F /* ArcExample */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C05B17E6575900DF711F /* ArcExample-Prefix.pch */,
-				DE05C05C17E6575900DF711F /* ArcExample.1 */,
-				DE05C05D17E6575900DF711F /* main.m */,
-			);
-			path = ArcExample;
-			sourceTree = "<group>";
-		};
-		DE05C05F17E6575900DF711F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C10017E6575900DF711F /* ArcExample */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DE05C06117E6575900DF711F /* iOS5Example */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C06217E6575900DF711F /* iOS5Example */,
-				DE05C07217E6575900DF711F /* iOS5Example.xcodeproj */,
-				DE05C07517E6575900DF711F /* iOS5ExampleTests */,
-				DE05C07D17E6575900DF711F /* usr */,
-			);
-			path = iOS5Example;
-			sourceTree = "<group>";
-		};
-		DE05C06217E6575900DF711F /* iOS5Example */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C06317E6575900DF711F /* AppDelegate.h */,
-				DE05C06417E6575900DF711F /* AppDelegate.m */,
-				DE05C06517E6575900DF711F /* DetailViewController.h */,
-				DE05C06617E6575900DF711F /* DetailViewController.m */,
-				DE05C06717E6575900DF711F /* InfoPlist.strings */,
-				DE05C06917E6575900DF711F /* MainStoryboard_iPad.storyboard */,
-				DE05C06B17E6575900DF711F /* MainStoryboard_iPhone.storyboard */,
-				DE05C06D17E6575900DF711F /* iOS5Example-Info.plist */,
-				DE05C06E17E6575900DF711F /* iOS5Example-Prefix.pch */,
-				DE05C06F17E6575900DF711F /* main.m */,
-				DE05C07017E6575900DF711F /* MasterViewController.h */,
-				DE05C07117E6575900DF711F /* MasterViewController.m */,
-			);
-			path = iOS5Example;
-			sourceTree = "<group>";
-		};
-		DE05C07317E6575900DF711F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C10417E6575900DF711F /* iOS5Example.app */,
-				DE05C10617E6575900DF711F /* iOS5ExampleTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DE05C07517E6575900DF711F /* iOS5ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C07617E6575900DF711F /* InfoPlist.strings */,
-				DE05C07817E6575900DF711F /* iOS5ExampleTests-Info.plist */,
-				DE05C07917E6575900DF711F /* iOS5ExampleTests.h */,
-				DE05C07A17E6575900DF711F /* iOS5ExampleTests.m */,
-				DE05C07B17E6575900DF711F /* ProtocolTests.h */,
-				DE05C07C17E6575900DF711F /* ProtocolTests.m */,
-			);
-			path = iOS5ExampleTests;
-			sourceTree = "<group>";
-		};
-		DE05C07D17E6575900DF711F /* usr */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C07E17E6575900DF711F /* include */,
-				DE05C08617E6575900DF711F /* lib */,
-			);
-			path = usr;
-			sourceTree = "<group>";
-		};
-		DE05C07E17E6575900DF711F /* include */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C07F17E6575900DF711F /* OCMock */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		DE05C07F17E6575900DF711F /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C08017E6575900DF711F /* NSNotificationCenter+OCMAdditions.h */,
-				DE05C08117E6575900DF711F /* OCMArg.h */,
-				DE05C08217E6575900DF711F /* OCMConstraint.h */,
-				DE05C08317E6575900DF711F /* OCMock.h */,
-				DE05C08417E6575900DF711F /* OCMockObject.h */,
-				DE05C08517E6575900DF711F /* OCMockRecorder.h */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
-		DE05C08617E6575900DF711F /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C08717E6575900DF711F /* libOCMock.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		DE05C08817E6575900DF711F /* iPhoneExample */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C08917E6575900DF711F /* Classes */,
-				DE05C08E17E6575900DF711F /* iPhoneExample-Info.plist */,
-				DE05C08F17E6575900DF711F /* iPhoneExample.xcodeproj */,
-				DE05C09217E6575900DF711F /* iPhoneExample_Prefix.pch */,
-				DE05C09317E6575900DF711F /* iPhoneExampleTests-Info.plist */,
-				DE05C09417E6575900DF711F /* Libraries */,
-				DE05C09E17E6575900DF711F /* main.m */,
-				DE05C09F17E6575900DF711F /* MainWindow.xib */,
-				DE05C0A017E6575900DF711F /* OCMockLogo.png */,
-				DE05C0A117E6575900DF711F /* RootViewController.xib */,
-				DE05C0A217E6575900DF711F /* Tests */,
-			);
-			path = iPhoneExample;
-			sourceTree = "<group>";
-		};
-		DE05C08917E6575900DF711F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C08A17E6575900DF711F /* iPhoneExampleAppDelegate.h */,
-				DE05C08B17E6575900DF711F /* iPhoneExampleAppDelegate.m */,
-				DE05C08C17E6575900DF711F /* RootViewController.h */,
-				DE05C08D17E6575900DF711F /* RootViewController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		DE05C09017E6575900DF711F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C10B17E6575900DF711F /* iPhoneExample.app */,
-				DE05C10D17E6575900DF711F /* iPhoneExampleTests.octest */,
-				DE05C10F17E6575900DF711F /* iPhoneExample.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DE05C09417E6575900DF711F /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C09517E6575900DF711F /* Headers */,
-				DE05C09D17E6575900DF711F /* libOCMock.a */,
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
-		DE05C09517E6575900DF711F /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C09617E6575900DF711F /* OCMock */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		DE05C09617E6575900DF711F /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C09717E6575900DF711F /* NSNotificationCenter+OCMAdditions.h */,
-				DE05C09817E6575900DF711F /* OCMArg.h */,
-				DE05C09917E6575900DF711F /* OCMConstraint.h */,
-				DE05C09A17E6575900DF711F /* OCMock.h */,
-				DE05C09B17E6575900DF711F /* OCMockObject.h */,
-				DE05C09C17E6575900DF711F /* OCMockRecorder.h */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
-		DE05C0A217E6575900DF711F /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C0A317E6575900DF711F /* RootViewControllerTests.h */,
-				DE05C0A417E6575900DF711F /* RootViewControllerTests.m */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		DE05C0A617E6575900DF711F /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C0A717E6575900DF711F /* Changes.txt */,
-				DE05C0A817E6575900DF711F /* Frameworks */,
-				DE05C0AA17E6575900DF711F /* License.txt */,
-				DE05C0AB17E6575900DF711F /* OCMock */,
-				DE05C0DB17E6575900DF711F /* OCMock.xcodeproj */,
-				DE05C0DE17E6575900DF711F /* OCMockLib */,
-				DE05C0E017E6575900DF711F /* OCMockTests */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		DE05C0A817E6575900DF711F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C0A917E6575900DF711F /* OCHamcrest.tar.bz2 */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		DE05C0AB17E6575900DF711F /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C0AC17E6575900DF711F /* InfoPlist.strings */,
-				DE05C0AE17E6575900DF711F /* NSInvocation+OCMAdditions.h */,
-				DE05C0AF17E6575900DF711F /* NSInvocation+OCMAdditions.m */,
-				DE05C0B017E6575900DF711F /* NSMethodSignature+OCMAdditions.h */,
-				DE05C0B117E6575900DF711F /* NSMethodSignature+OCMAdditions.m */,
-				DE05C0B217E6575900DF711F /* NSNotificationCenter+OCMAdditions.h */,
-				DE05C0B317E6575900DF711F /* NSNotificationCenter+OCMAdditions.m */,
-				DE05C0B417E6575900DF711F /* OCClassMockObject.h */,
-				DE05C0B517E6575900DF711F /* OCClassMockObject.m */,
-				DE05C0B617E6575900DF711F /* OCMArg.h */,
-				DE05C0B717E6575900DF711F /* OCMArg.m */,
-				DE05C0B817E6575900DF711F /* OCMBlockCaller.h */,
-				DE05C0B917E6575900DF711F /* OCMBlockCaller.m */,
-				DE05C0BA17E6575900DF711F /* OCMBoxedReturnValueProvider.h */,
-				DE05C0BB17E6575900DF711F /* OCMBoxedReturnValueProvider.m */,
-				DE05C0BC17E6575900DF711F /* OCMConstraint.h */,
-				DE05C0BD17E6575900DF711F /* OCMConstraint.m */,
-				DE05C0BE17E6575900DF711F /* OCMExceptionReturnValueProvider.h */,
-				DE05C0BF17E6575900DF711F /* OCMExceptionReturnValueProvider.m */,
-				DE05C0C017E6575900DF711F /* OCMIndirectReturnValueProvider.h */,
-				DE05C0C117E6575900DF711F /* OCMIndirectReturnValueProvider.m */,
-				DE05C0C217E6575900DF711F /* OCMNotificationPoster.h */,
-				DE05C0C317E6575900DF711F /* OCMNotificationPoster.m */,
-				DE05C0C417E6575900DF711F /* OCMObserverRecorder.h */,
-				DE05C0C517E6575900DF711F /* OCMObserverRecorder.m */,
-				DE05C0C617E6575900DF711F /* OCMock-Info.plist */,
-				DE05C0C717E6575900DF711F /* OCMock-Prefix.pch */,
-				DE05C0C817E6575900DF711F /* OCMock.h */,
-				DE05C0C917E6575900DF711F /* OCMockObject.h */,
-				DE05C0CA17E6575900DF711F /* OCMockObject.m */,
-				DE05C0CB17E6575900DF711F /* OCMockRecorder.h */,
-				DE05C0CC17E6575900DF711F /* OCMockRecorder.m */,
-				DE05C0CD17E6575900DF711F /* OCMPassByRefSetter.h */,
-				DE05C0CE17E6575900DF711F /* OCMPassByRefSetter.m */,
-				DE05C0CF17E6575900DF711F /* OCMRealObjectForwarder.h */,
-				DE05C0D017E6575900DF711F /* OCMRealObjectForwarder.m */,
-				DE05C0D117E6575900DF711F /* OCMReturnValueProvider.h */,
-				DE05C0D217E6575900DF711F /* OCMReturnValueProvider.m */,
-				DE05C0D317E6575900DF711F /* OCObserverMockObject.h */,
-				DE05C0D417E6575900DF711F /* OCObserverMockObject.m */,
-				DE05C0D517E6575900DF711F /* OCPartialMockObject.h */,
-				DE05C0D617E6575900DF711F /* OCPartialMockObject.m */,
-				DE05C0D717E6575900DF711F /* OCPartialMockRecorder.h */,
-				DE05C0D817E6575900DF711F /* OCPartialMockRecorder.m */,
-				DE05C0D917E6575900DF711F /* OCProtocolMockObject.h */,
-				DE05C0DA17E6575900DF711F /* OCProtocolMockObject.m */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
-		DE05C0DC17E6575900DF711F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C11417E6575900DF711F /* OCMock.framework */,
-				DE05C11617E6575900DF711F /* OCMockTests.octest */,
-				DE05C11817E6575900DF711F /* libOCMock.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DE05C0DE17E6575900DF711F /* OCMockLib */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C0DF17E6575900DF711F /* OCMockLib-Prefix.pch */,
-			);
-			path = OCMockLib;
-			sourceTree = "<group>";
-		};
-		DE05C0E017E6575900DF711F /* OCMockTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C0E117E6575900DF711F /* InfoPlist.strings */,
-				DE05C0E317E6575900DF711F /* NSInvocationOCMAdditionsTests.h */,
-				DE05C0E417E6575900DF711F /* NSInvocationOCMAdditionsTests.m */,
-				DE05C0E517E6575900DF711F /* NSMethodSignatureOCMAdditionsTests.h */,
-				DE05C0E617E6575900DF711F /* NSMethodSignatureOCMAdditionsTests.m */,
-				DE05C0E717E6575900DF711F /* OCMArgTests.h */,
-				DE05C0E817E6575900DF711F /* OCMArgTests.m */,
-				DE05C0E917E6575900DF711F /* OCMConstraintTests.h */,
-				DE05C0EA17E6575900DF711F /* OCMConstraintTests.m */,
-				DE05C0EB17E6575900DF711F /* OCMockObjectClassMethodMockingTests.h */,
-				DE05C0EC17E6575900DF711F /* OCMockObjectClassMethodMockingTests.m */,
-				DE05C0ED17E6575900DF711F /* OCMockObjectForwardingTargetTests.h */,
-				DE05C0EE17E6575900DF711F /* OCMockObjectForwardingTargetTests.m */,
-				DE05C0EF17E6575900DF711F /* OCMockObjectHamcrestTests.h */,
-				DE05C0F017E6575900DF711F /* OCMockObjectHamcrestTests.mm */,
-				DE05C0F117E6575900DF711F /* OCMockObjectPartialMocksTests.h */,
-				DE05C0F217E6575900DF711F /* OCMockObjectPartialMocksTests.m */,
-				DE05C0F317E6575900DF711F /* OCMockObjectProtocolMocksTests.h */,
-				DE05C0F417E6575900DF711F /* OCMockObjectProtocolMocksTests.m */,
-				DE05C0F517E6575900DF711F /* OCMockObjectTests.h */,
-				DE05C0F617E6575900DF711F /* OCMockObjectTests.m */,
-				DE05C0F717E6575900DF711F /* OCMockRecorderTests.h */,
-				DE05C0F817E6575900DF711F /* OCMockRecorderTests.m */,
-				DE05C0F917E6575900DF711F /* OCMockTests-Info.plist */,
-				DE05C0FA17E6575900DF711F /* OCObserverMockObjectTests.h */,
-				DE05C0FB17E6575900DF711F /* OCObserverMockObjectTests.m */,
-			);
-			path = OCMockTests;
-			sourceTree = "<group>";
-		};
-		DE05C0FC17E6575900DF711F /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				DE05C0FD17E6575900DF711F /* build.rb */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 		DE446EBE17E4D1BC00CB0982 = {
 			isa = PBXGroup;
 			children = (
 				DEE39DD517E4D4D8002381FE /* README.md */,
 				DEE39DD417E4D4C4002381FE /* LICENSE */,
-				DE05C05617E6575900DF711F /* ocmock */,
 				DE446ED017E4D1BC00CB0982 /* BSOperationPlay */,
 				DE446EEF17E4D1BC00CB0982 /* BSOperationPlayTests */,
 				DE446EC917E4D1BC00CB0982 /* Frameworks */,
@@ -661,6 +116,7 @@
 		DE446EC917E4D1BC00CB0982 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEBE372317E65EC600FBF617 /* libOCMock.a */,
 				DE446ECA17E4D1BC00CB0982 /* Foundation.framework */,
 				DE446ECC17E4D1BC00CB0982 /* CoreGraphics.framework */,
 				DE446ECE17E4D1BC00CB0982 /* UIKit.framework */,
@@ -781,24 +237,6 @@
 			mainGroup = DE446EBE17E4D1BC00CB0982;
 			productRefGroup = DE446EC817E4D1BC00CB0982 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DE05C05F17E6575900DF711F /* Products */;
-					ProjectRef = DE05C05E17E6575900DF711F /* ArcExample.xcodeproj */;
-				},
-				{
-					ProductGroup = DE05C07317E6575900DF711F /* Products */;
-					ProjectRef = DE05C07217E6575900DF711F /* iOS5Example.xcodeproj */;
-				},
-				{
-					ProductGroup = DE05C09017E6575900DF711F /* Products */;
-					ProjectRef = DE05C08F17E6575900DF711F /* iPhoneExample.xcodeproj */;
-				},
-				{
-					ProductGroup = DE05C0DC17E6575900DF711F /* Products */;
-					ProjectRef = DE05C0DB17E6575900DF711F /* OCMock.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DE446EC617E4D1BC00CB0982 /* BSOperationPlay */,
@@ -806,72 +244,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DE05C10017E6575900DF711F /* ArcExample */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ArcExample;
-			remoteRef = DE05C0FF17E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DE05C10417E6575900DF711F /* iOS5Example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOS5Example.app;
-			remoteRef = DE05C10317E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DE05C10617E6575900DF711F /* iOS5ExampleTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iOS5ExampleTests.octest;
-			remoteRef = DE05C10517E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DE05C10B17E6575900DF711F /* iPhoneExample.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iPhoneExample.app;
-			remoteRef = DE05C10A17E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DE05C10D17E6575900DF711F /* iPhoneExampleTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iPhoneExampleTests.octest;
-			remoteRef = DE05C10C17E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DE05C10F17E6575900DF711F /* iPhoneExample.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iPhoneExample.app;
-			remoteRef = DE05C10E17E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DE05C11417E6575900DF711F /* OCMock.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OCMock.framework;
-			remoteRef = DE05C11317E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DE05C11617E6575900DF711F /* OCMockTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCMockTests.octest;
-			remoteRef = DE05C11517E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DE05C11817E6575900DF711F /* libOCMock.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOCMock.a;
-			remoteRef = DE05C11717E6575900DF711F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DE446EC517E4D1BC00CB0982 /* Resources */ = {
@@ -927,54 +299,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE05C06717E6575900DF711F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE05C06817E6575900DF711F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DE05C06917E6575900DF711F /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE05C06A17E6575900DF711F /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		DE05C06B17E6575900DF711F /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE05C06C17E6575900DF711F /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		DE05C07617E6575900DF711F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE05C07717E6575900DF711F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DE05C0AC17E6575900DF711F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE05C0AD17E6575900DF711F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DE05C0E117E6575900DF711F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE05C0E217E6575900DF711F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		DE446ED317E4D1BC00CB0982 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1116,7 +440,20 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/ocmock/Source",
+				);
 				INFOPLIST_FILE = "BSOperationPlayTests/BSOperationPlayTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = BSOperationPlayTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1135,7 +472,20 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BSOperationPlay/BSOperationPlay-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/ocmock/Source",
+				);
 				INFOPLIST_FILE = "BSOperationPlayTests/BSOperationPlayTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = BSOperationPlayTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
