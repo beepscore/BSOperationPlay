@@ -21,6 +21,7 @@
 		DE446EEB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECA17E4D1BC00CB0982 /* Foundation.framework */; };
 		DE446EEC17E4D1BC00CB0982 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE446ECE17E4D1BC00CB0982 /* UIKit.framework */; };
 		DE446EF417E4D1BC00CB0982 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE446EF217E4D1BC00CB0982 /* InfoPlist.strings */; };
+		DEBE372417E65EC600FBF617 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBE372317E65EC600FBF617 /* libOCMock.a */; };
 		DEC0397F17E52E3A00A7A063 /* BSOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0397E17E52E3A00A7A063 /* BSOperationController.m */; };
 		DEC0398017E52E3A00A7A063 /* BSOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0397E17E52E3A00A7A063 /* BSOperationController.m */; };
 		DEC0398217E52EE800A7A063 /* BSOperationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0398117E52EE800A7A063 /* BSOperationControllerTests.m */; };
@@ -58,6 +59,7 @@
 		DE446EF117E4D1BC00CB0982 /* BSOperationPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSOperationPlayTests-Info.plist"; sourceTree = "<group>"; };
 		DE446EF317E4D1BC00CB0982 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE57C2DF17E63A69003084E4 /* BSOperationController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOperationController_Private.h; sourceTree = "<group>"; };
+		DEBE372317E65EC600FBF617 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC0397D17E52E3A00A7A063 /* BSOperationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOperationController.h; sourceTree = "<group>"; };
 		DEC0397E17E52E3A00A7A063 /* BSOperationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOperationController.m; sourceTree = "<group>"; };
 		DEC0398117E52EE800A7A063 /* BSOperationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOperationControllerTests.m; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBE372417E65EC600FBF617 /* libOCMock.a in Frameworks */,
 				DE446EEA17E4D1BC00CB0982 /* XCTest.framework in Frameworks */,
 				DE446EEC17E4D1BC00CB0982 /* UIKit.framework in Frameworks */,
 				DE446EEB17E4D1BC00CB0982 /* Foundation.framework in Frameworks */,
@@ -113,6 +116,7 @@
 		DE446EC917E4D1BC00CB0982 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEBE372317E65EC600FBF617 /* libOCMock.a */,
 				DE446ECA17E4D1BC00CB0982 /* Foundation.framework */,
 				DE446ECC17E4D1BC00CB0982 /* CoreGraphics.framework */,
 				DE446ECE17E4D1BC00CB0982 /* UIKit.framework */,
@@ -436,7 +440,20 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/ocmock/Source",
+				);
 				INFOPLIST_FILE = "BSOperationPlayTests/BSOperationPlayTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = BSOperationPlayTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -455,7 +472,20 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BSOperationPlay/BSOperationPlay-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/ocmock/Source",
+				);
 				INFOPLIST_FILE = "BSOperationPlayTests/BSOperationPlayTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"$(BUILT_PRODUCTS_DIR)/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = BSOperationPlayTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

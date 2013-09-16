@@ -9,6 +9,7 @@
 #import <XCTest/XCTest.h>
 #import "BSOperationController.h"
 #import "BSOperationController_Private.h"
+#import "OCMock/OCMock.h"
 
 @interface BSOperationControllerTests : XCTestCase
 @property (strong, nonatomic) BSOperationController *operationController;
@@ -67,7 +68,7 @@
                 @"expected notificationCenter nil");
 }
 
-/*
+
 - (void)testDesignatedInitializerSetsNotificationCenter {
     // Use nice mock to ignore un-expect-ed calls.
     id mockNotificationCenter = [OCMockObject niceMockForClass:[NSNotificationCenter class]];
@@ -78,6 +79,5 @@
                    self.operationController.notificationCenter,
                    @"expected notificationCenter set");
 }
-*/
 
 @end
